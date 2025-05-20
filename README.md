@@ -1,11 +1,25 @@
-# 🤖 Chat IA com OpenAI e Python
+# 🤖 Chat IA com OpenAI
 
-Um chatbot simples usando a API da OpenAI com `gpt-3.5-turbo`, criado em Python.
+Este projeto é um chatbot simples feito em Python utilizando a API da OpenAI (`gpt-3.5-turbo`).
 
-## 🚀 Como usar
+## 🚀 Funcionalidades
 
-### 1. Clonar o repositório
+- Envia perguntas para a IA
+- Recebe respostas em tempo real
+- Suporte a múltiplas interações
+
+## 🛠 Como usar
 
 ```bash
-git clone https://github.com/seu-usuario/chat-ia.git
-cd chat-ia
+# Crie e ative o ambiente virtual
+python -m venv venv
+venv\Scripts\activate  # Windows
+
+# Instale as dependências
+pip install -r requirements.txt
+
+# Crie um arquivo .env com sua chave da OpenAI
+echo OPENAI_API_KEY=sk-... > .env
+
+# Execute
+python chat.py
