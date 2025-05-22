@@ -27,5 +27,5 @@ Antes de começar, certifique-se de ter instalado:
 ### 1. Clonar o Repositório
 
 ```bash
-git clone [https://github.com/Betoddy19/Chat-IA.git](https://github.com/Betoddy19/Chat-IA.git)
+git clone [https://github.com/GIlbertoSRamos19/Chat-IA.git](https://github.com/GIlbertoSRamos19/Chat-IA.git)
 cd Chat-IA  # Navegue para a pasta do projeto
